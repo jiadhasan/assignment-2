@@ -107,7 +107,50 @@ h6{
     margin-left: 190px;
     margin-right: 190px;
   }
+  .inter-titles{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    font-size: 40px;
+    color: #FFFFFF;
+  }
+  /*main related styles*/
+  .card-title{
+    font-size: 24px;
+    font-weight:bold;
+    margin-top: 20px;
+  }
+  .card-description{
+    font-size: 14px;
+    font-weight:normal;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 58px;
+  }
+  .Fitness-img{
+   border-radius: 100%;
+  }
+  .habits-alignment{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   
+  }
+ .padding{
+    padding-top: 8%;
+ }
+  .habits-description{
+    margin-top: 20px;
+  }
+
 
   /*responsive related styels*/
   @media screen and (max-width:576px){
