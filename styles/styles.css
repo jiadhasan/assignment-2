@@ -150,7 +150,30 @@ h6{
   .habits-description{
     margin-top: 20px;
   }
-
+  /*3rd page styles*/
+  .run-img{
+    width:366px ;
+    height:312px ;
+    border-radius: 18px;
+    
+  }
+  .runner{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    
+  }
+  .backg-col{
+    background-color:rgb(56,56,56);
+    border-radius: 18px;
+  }
+  .run-description{
+    margin-top: 20px;
+  }
+  .banner-button{
+    margin-top: 20px;
+  }
 
   /*responsive related styels*/
   @media screen and (max-width:576px){
@@ -197,7 +220,7 @@ h6{
     .banner-description{
         font-size: 16px;
         font-weight: 500px;
-        width: auto;
+   
     }
     /*2nd page*/
     .cards{
@@ -220,6 +243,18 @@ h6{
         padding: 10px;
         width:auto;
       }
+      /*3rd page*/
+      .runner{
+        flex-direction: column;
+      }
+      .margin{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .run-img{
+        margin-top: 30px;
+      }
+
   }
   
   
