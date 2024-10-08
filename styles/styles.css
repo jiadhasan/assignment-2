@@ -198,8 +198,28 @@ h6{
         font-size: 16px;
         font-weight: 500px;
         width: auto;
-
     }
+    /*2nd page*/
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .padding{
+        padding: 0%;
+    }
+    .card-title{
+        font-size: 24px;
+        font-weight:bold;
+        margin-top: 15px;
+      }
+      .card-description{
+        font-size: 14px;
+        font-weight:normal;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        padding: 10px;
+        width:auto;
+      }
   }
   
   
