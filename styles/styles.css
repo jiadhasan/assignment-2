@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*nav-bar related styles*/ 
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #E6533C;
+    width: 132px;
+    height: 43px;
+    font-size: 36px;
+  }
+  
+.display-flex{
+    display: flex;
+}
+.nav-items{
+    border: 1px solid silver;
+   width:455px;
+   height:45px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home{
+    border: 1px solid #E6533C;
+    background-color:#E6533C;
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+h6{
+    color:cornflowerblue;
+    font-size: 20px;
+    font-weight:normal;
+    margin-right: 50px;
+    color: #FFFFFF;
+}
+.background-col{
+    background-color: #111111;
+}
+.banner-title{
+    color:#FFFFFF;
+    font-size: 78px;
+    font-weight: 900;
+}
+.albert-sans {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing:78;
+    font-weight:bold
+  }
+  .allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px
+  }
+  .inter-small{
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size: 16px;
+    color:gainsboro;
+  }
+  .banner-button{
+    background-color:#E6533C;
+    border: 1px solid #E6533C;
+    border-style: none;
+    width:200px ;
+    height:40px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .banner-button-2{
+    width:200px ;
+    height:40px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background-color: #111111;
+    border: 1px solid gainsboro ;
+    margin-top: 20px;
+  }
+  .banner-description{
+    margin-top: 25px;
+  }
+  .banner{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .margin{
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+  
+
+  /*responsive related styels*/
+  @media screen and (max-width:576px){
+    .banner{
+        flex-direction: column;
+    }
+    .nav-items{
+        display: none;
+    }
+    .banner-button{
+        background-color:#E6533C;
+        border: 1px solid #E6533C;
+        border-style: none;
+        width:200px ;
+        height:40px;
+        border-radius: 40px;
+        color: #FFFFFF;
+        margin-right: 10px;
+        margin-top: 20px;
+    
+      }
+      .banner-button-2{
+        width: 200px;
+        height:40px;
+        border-radius: 40px;
+        color: #FFFFFF;
+        background-color: #111111;
+        border: 1px solid gainsboro ;
+        margin-top: 20px;
+        
+        
+      }
+      .inter{
+        margin-left: 30px;
+      }
+      .margin{
+        margin:auto;
+      }
+      .banner-title{
+        color:#FFFFFF;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .banner-description{
+        font-size: 16px;
+        font-weight: 500px;
+        width: auto;
+
+    }
+  }
+  
+  
