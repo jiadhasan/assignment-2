@@ -174,6 +174,44 @@ h6{
   .banner-button{
     margin-top: 20px;
   }
+/*4th page styles*/
+h3{
+margin-top: -60px;
+margin-left: 30px;
+}
+h5{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.team{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.team-img{
+    width: 350px;
+    height: 290px;
+    border-radius: 18px;
+}
+.team-containers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    gap: 10px;
+}
+.team-description{
+    margin-top: 20px;
+}
+.inter-team {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
 
   /*responsive related styels*/
   @media screen and (max-width:576px){
@@ -254,7 +292,16 @@ h6{
       .run-img{
         margin-top: 30px;
       }
-
+      /*4th page*/
+      .team-containers{
+        display: grid;
+        grid-template-columns:1fr;
+        padding: 20px;
+    }
+    .team-img{
+        width: 470px;
+        height: auto;
+    }
   }
   
   
