@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /*nav-bar related styles*/ 
+
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -13,7 +14,6 @@
     height: 43px;
     font-size: 36px;
   }
-  
 .display-flex{
     display: flex;
 }
@@ -258,7 +258,6 @@ h5{
     text-align: center;
     align-items: center;
    margin: 30px;
-   
    padding-bottom: 20px;
 }
   /*responsive related styels*/
@@ -292,9 +291,7 @@ h5{
         
         
       }
-      .inter{
-        margin-left: 30px;
-      }
+      
       .margin{
         margin:auto;
       }
@@ -333,12 +330,20 @@ h5{
       .runner{
         flex-direction: column;
       }
+      .banner-button{
+        width: 330px;
+      }
+      .banner-button-2{
+        width: 330px;
+      }
       .margin{
         margin-left: 20px;
         margin-right: 20px;
       }
       .run-img{
         margin-top: 30px;
+        width: 330px;
+        height: 200px;
       }
       /*4th page*/
       .team-containers{
@@ -348,7 +353,7 @@ h5{
     }
     .team-img{
         width: 470px;
-        height: auto;
+        height:auto;
     }
     /*5th page*/
     .footer{
@@ -358,6 +363,9 @@ h5{
     .margin-top-footer{
         margin-top:20px;
         margin-left:0%;
+    }
+    .team-img{
+        width: 330px;
     }
   }
   
