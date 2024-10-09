@@ -212,7 +212,55 @@ h5{
     font-size: 20px;
     color: #FFFFFF;
   }
-
+  .margin-bottom{
+   padding-bottom: 88px;
+  }
+/*5th page */
+.backg-color{
+    background-color:rgb(56,56,56); ;
+}
+.inter{
+    font-size: 70px;
+    font-weight:bold;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.fitness-style{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: #E6533C;
+    font-size: 70px;
+    margin-bottom: 2%;
+}
+.footer-description{
+    margin-top: 0%;
+}
+.footer-align{
+    justify-content: center;
+    align-items: center;
+    
+}
+.margin-top-footer{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.inter-foot-title{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+.foot-tag{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   margin: 30px;
+   
+   padding-bottom: 20px;
+}
   /*responsive related styels*/
   @media screen and (max-width:576px){
     .banner{
@@ -301,6 +349,15 @@ h5{
     .team-img{
         width: 470px;
         height: auto;
+    }
+    /*5th page*/
+    .footer{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .margin-top-footer{
+        margin-top:20px;
+        margin-left:0%;
     }
   }
   
